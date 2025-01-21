@@ -1,0 +1,273 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+body{background-color: #eeeeee;}
+nav{width: 100%;
+height: 500px;}
+
+.todo {margin-left: 510px;
+    padding-top: 1px;
+    width: 180px; height: 100px;
+  background-image:url(pictures/todo.jpg);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+
+p.intro{padding-top:10px;
+  padding-left: 420px;
+  font-family: sans-serif;
+  font-size: 35px;
+color:#000000}
+
+p.first{padding-top:10px;
+  padding-left: 440px;
+  font-family: serif;
+  font-size: 25px;
+color:#000000}
+
+.boxed{
+  margin-left: 430px;
+padding: 10px 150px;
+background-color: #51D0C7;
+border-radius: 10px;
+font-family: sans-serif;
+font-size: 17px;}
+.boxed:hover {
+  background-color: gray;}
+
+.welcome{padding-top:10px;
+  padding-left: 440px;
+  font-family: serif;
+  font-size: 35px;
+color:#000000}
+
+input[type=text] {padding: 10px 60px;
+margin: 10px 0;
+margin-left: 420px;
+border: 2px solid #eee;
+border-radius: 10px;
+font-family: sans-serif;
+}
+
+input[type=password] {padding: 10px 60px;
+margin: 10px 0;
+margin-left: 420px;
+border: 2px solid #eee;
+border-radius: 10px;
+font-family: sans-serif;
+}
+
+.forgotten {padding-top:20px;
+  padding-left: 500px;
+  font-family: sans-serif;
+  font-size: 18px;
+color:#51d0c7;}
+
+.login{
+  margin-left: 422px;
+padding: 10px 125px;
+background-color: #51D0C7;
+border-radius: 10px;
+font-family: sans-serif;
+font-size: 17px;}
+.login:hover {
+  background-color: gray;}
+
+.open{padding-top:20px;
+  padding-left: 430px;
+  font-family: sans-serif;
+  font-size: 18px;
+color:#000;}
+
+.sign{color: #51D0C7;}
+.sign:hover{color: gray;}
+
+.onboard{
+  padding-left: 420px;
+  font-family: serif;
+  font-size: 35px;
+color:#000000}
+
+.signpara{padding-top:10px;
+  padding-left: 420px;
+  font-family: sans-serif;
+  font-size: 17px;
+color:#000000}
+
+.register{
+  margin-left: 420px;
+padding: 10px 100px;
+background-color: #51D0C7;
+border-radius: 10px;
+font-family: sans-serif;
+font-size: 17px;}
+.boxed:hover {
+  background-color: gray;}
+
+  nav{width: 100%;
+  height: 430px;
+  background-color: #51D0C7; }
+
+  .Nefpic {margin-left: 480px;
+    padding-top: 250px;
+    width: 180px; height: 100px;
+  background-image:url(pictures/nef.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+
+  .account{padding-top:4px;
+    padding-left: 420px;
+    font-family: serif;
+    font-size: 35px;
+  color:#eee;}
+
+  .greeting{padding-top:10px;
+    padding-right:30px;
+    font-family: sans-serif;
+    font-size: 17px;
+  color:#000000}
+
+  .clock {margin-left: 480px;
+    padding-top: 100px;
+    width: 180px; height: 100px;
+  background-image:url(pictures/clock.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+
+  .task{padding-top:10px;
+    margin-left:80px;
+    font-family: sans-serif;
+    font-size: 17px;
+  color:#000000}
+
+  .check{border:1px solid black;
+    margin-left: 140px;
+    border-radius: 20px;
+  -moz-box-shadow: 20px 20px 22px #bebebe;
+  -webkit-box-shadow: 20px 20px 22px #bebebe;
+  box-shadow: 20px 20px 22px #bebebe;
+  width: 320px;
+  height: 300px;
+  background-color: #fff;
+  font-family: sans-serif georgia;
+  font-size: 17px;}
+
+  .daily{margin-left: 30px;}
+
+  p.legalinfo {padding:15px;
+  border-width: 30px;
+  border-color: black;
+  background-color: #51D0C7;
+  font-family: sans-serif;
+  font-size: 17px;
+color:black}
+
+  p.legal {margin-left: 100px;
+    font-family: sans-serif;
+    font-size: 18px;
+    color:black}
